@@ -81,6 +81,8 @@ Un conjunto vibrante de azules es el punto central de la paleta de colores. Cuan
 
 ## Tintes
 De los colores primarios se obtuvieron los siguientes tintes:
+
+
 | Nombre | HEX | RGB |
 | ------------- | ------------- | ------------- |
 | Ocean Blue | HEX #005EB8 | RGB 0, 94, 184 |
