@@ -70,7 +70,7 @@ section#main-content {
   font-size: 2.8em;
   font-weight: normal;
   color: rgb(25, 28, 30);
-  text-indent: 6px;
+  text-indent: 20px;
   letter-spacing: -1px;
 }
 
@@ -90,7 +90,30 @@ section#main-content {
   width: auto;
   padding-top: 20px;
   font-size: 23px;
+}
+
+#main-content h2#proporciona-estándares-claros-orientación-y-herramientas-que-ayudan-a-los-equipos-a-trabajar-juntos-de-manera-más-eficiente-y-construir-mejores-experiencias-de-usuario{
+  margin-bottom: 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
+  color: rgb(25, 28, 30);
+  text-indent: 26px;
+  font-weight: normal;
+  width: auto;
+  padding-top: 20px;
+  font-size: 23px;
   text-align: center;
+}
+
+h2#analisis, h2#primarios, h2#secundarios, h2#terciarios, h2#tintes-2, h2#alertas,h2#mejores-prácticas, h2#accesibilidadm h2#jerarquía-de-colores, h2#pautas-adicionales, h2#referencias {
+  margin-bottom: 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
+  color: rgb(25, 28, 30);
+  text-indent: 26px;
+  font-weight: normal;
+  width: auto;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: left;
 }
 #main-content h2:before {
   padding-right: 0.3em;
@@ -156,6 +179,13 @@ h6:before {
   margin-left: -3.7em;
   color: #9ddcff;
   content: "";
+}
+
+#main-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #content-wrapper {

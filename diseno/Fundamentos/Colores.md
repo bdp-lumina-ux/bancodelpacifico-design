@@ -939,7 +939,6 @@ A continuación se detallan pautas adicionales a considerar para utilizar los co
 
 ## Referencias
 
-Use of color - Web Content Accessibility Guidelines (WCAG 2.0) https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0&showtechniques=141#use-of-color
+[Use of color - Web Content Accessibility Guidelines (WCAG 2.0)](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0&showtechniques=141#use-of-color)
 
-Facts About Color Blindness - The National Eye Institute (NEI)
-https://nei.nih.gov/health/color_blindness/facts_about
+[Facts About Color Blindness - The National Eye Institute (NEI)](https://nei.nih.gov/health/color_blindness/facts_about)
