@@ -95,7 +95,6 @@ De los colores primarios se obtuvieron los siguientes tintes:
 | Dbt-30 | HEX #B3BFD1 | RGB 179, 191, 209 |
 | Dbt-20 | HEX #CCD4E0 | RGB 204, 212, 224 |
 | Dbt-10 | HEX #E6EAF0 | RGB 230, 234, 240 |
------
 
 ## Secundarios
 Los colores secundarios proporciona más formas de acentuar y distinguir su producto. Tener un color secundario es opcional, y debe aplicarse con moderación para acentuar partes seleccionadas de su interfaz de usuario.
@@ -105,7 +104,7 @@ Los colores secundarios proporciona más formas de acentuar y distinguir su prod
 | HEX #1ED75F | RGB 30, 215, 95 |
 | HEX #00CCFF | RGB 0, 204, 255 |
 | HEX #FF365D | RGB 255, 54, 93 |
------
+
 
 ### Desglose de colores secundarios
 <table id="page-table">
@@ -217,7 +216,7 @@ De los colores secundarios se obtuvieron los siguientes tintes:
 | Rrt-30 | HEX #FFC3CE | RGB 255, 195, 206 |
 | Rrt-20 | HEX #FFD7DF | RGB 255, 215, 223 |
 | Rrt-10 | HEX #FFEBEF | RGB 255, 235, 239 |
------
+
 
 ## Terciarios
 Los colores terciarios servirán de apoyo adicional a los colores secundarios y se podrán utilizar en: ilustraciones, iconos, botones de acción flotantes, resaltar texto seleccionado, barras de progreso,  vínculos y en elementos para diferenciar categorías.
@@ -226,7 +225,7 @@ Los colores terciarios servirán de apoyo adicional a los colores secundarios y 
 | ------------- | ------------- |
 | HEX #F9E94E | RGB 249, 233, 78 |
 | HEX #804A8B | RGB 128, 74, 139 |
------
+
 
 ### Desglose de colores terciarios
 <table id="page-table">
@@ -309,7 +308,7 @@ De los colores terciarios se obtuvieron los siguientes tintes:
 | Pt-30 | HEX #D8C8DC | RGB 216, 200, 220 |
 | Pt-20 | HEX #E6DBE8 | RGB 230, 219, 232 |
 | Pt-10 | HEX #F2ECF3 | RGB 242, 236, 243 |
------
+
 
 ## Escala de grises
 Tener varias familias de grises le da a cada diseño la oportunidad de matices y momentos significativos de color. Cada experiencia debe estar dominada por los grises y los colores centrales (negro, blanco y azul de la familia), lo que permite que las otras familias de colores tengan vitalidad y objetivos.
@@ -326,7 +325,7 @@ Tener varias familias de grises le da a cada diseño la oportunidad de matices y
 | HEX #32373C | RGB 50, 55, 60 |
 | HEX #191C1E | RGB 25, 28, 30 | 
 | HEX #000000 | RGB 0, 0, 0 |
------
+
 
 ### Desglose de escala de grises
 <table id="page-table">
@@ -602,7 +601,7 @@ Las alertas mantienen a los usuarios informados de cambios importantes y, a vece
 | Red-10 | HEX #FAEAEB | RGB 250, 234, 235 |
 | Yellow-10 | HEX #FFF8DE | RGB 255, 248, 222 |
 | Green-10 | HEX #E8F3EB | RGB 232, 243, 235 |
------
+
 
 ### Desglose de colores para alertas
 <table id="page-table">
@@ -934,7 +933,7 @@ A continuación se detallan pautas adicionales a considerar para utilizar los co
 | Utilizar los colores de Lumina asignados a los design tokens. | Crear sus propios colores. |
 | Verificar que las combinaciones de colores a utilizar cumplan con los criterios mínimos de accesibilidad. | Aplicar combinaciones de colores que no pasen la accesibilidad requerida. Para consultar las combinaciones permitidas, visita el [siguiente enlace](https://contrast-grid.eightshapes.com/?background-colors=&foreground-colors=005EB8%0D%0A80AFDC%0D%0A99BFE3%0D%0AB3CFEA%0D%0ACCDFF1%0D%0AE6EFF8%0D%0A002A66%0D%0A8095B3%0D%0A99AAC2%0D%0AB3BFD1%0D%0ACCD4E0%0D%0AE6EAF0%0D%0A1ED75F%0D%0A8FEBAF%0D%0AA5EFBF%0D%0AAAEFC2%0D%0AC9F5D9%0D%0AE5FAED%0D%0A00CCFF%0D%0A80E6FF%0D%0A99EBFF%0D%0AB3F0FF%0D%0AC5F3FF%0D%0AE3F9FF%0D%0AFF365D%0D%0AFF9BAE%0D%0AFFAFBE%0D%0AFFC3CE%0D%0AFFD7DF%0D%0AFFEBEF%0D%0AF9E94E%0D%0AFCF4A7%0D%0AFDF6B8%0D%0AFDF8CA%0D%0AFEFBCD%0D%0AFEFDED%0D%0A804A8B%0D%0ABFA4C5%0D%0ACCB7D1%0D%0AD8C8DC%0D%0AE6DBE8%0D%0AF2ECF3%0D%0AFFFFFF%0D%0AFDFDFD%0D%0AECEFF1%0D%0ADBE0E4%0D%0AB3BAC0%0D%0A8B939B%0D%0A636D77%0D%0A32373C%0D%0A191C1E%0D%0A000000%0D%0A005EB8%0D%0A002A66%0D%0AE6EFF8%0D%0AFFCC00%0D%0A7A6100%0D%0AFFF8DE%0D%0ACD2029%0D%0A5F0E14%0D%0AFAEAEB%0D%0A148834%0D%0A0C521F%0D%0AE8F3EB&es-color-form__tile-size=compact).|
 | Proporcionar suficiente espacio en blanco en áreas de mucho contenido, para que la información sea consumible para el usuario. | Utilizar más de tres colores de manera prominente en una interfaz.|
------
+
 
 ## Referencias
 
