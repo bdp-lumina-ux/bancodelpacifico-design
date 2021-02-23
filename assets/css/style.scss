@@ -85,10 +85,13 @@ section#main-content{
 #main-content h2 {
   margin-bottom: 8px;
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 22px;
-  font-weight: bold;
-  color: #474747;
+  color: rgb(99, 109, 119);
   text-indent: 26px;
+  font-weight: normal;
+  width: 0px;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: center;
 }
 #main-content h2:before {
   padding-right: 0.3em;
