@@ -16,6 +16,14 @@ p {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
+td{
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 1%;
+  text-align:left;
+}
+
 header {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -26,6 +34,22 @@ header {
 header .inner h3#subtitle {
   color: white;
   font-weight: normal;
+  width: 0px;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: center;
+}
+
+header .inner h1#title {
+  text-align: center;
+  font-size: 48px;
+  width: auto;
+}
+
+section#main-content{
+  float: left;
+  width: auto;
+
 }
 
 #main-content h1 {
@@ -52,7 +76,7 @@ header .inner h3#subtitle {
   font-size: 22px;
   font-weight: bold;
   color: #474747;
-  text-indent: 4px;
+  text-indent: 26px;
 }
 #main-content h2:before {
   padding-right: 0.3em;
