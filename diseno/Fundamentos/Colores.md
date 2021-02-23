@@ -89,7 +89,7 @@ De los colores primarios se obtuvieron los siguientes tintes:
 | Obt-30 | HEX #B3CFEA | RGB 179, 207, 234 |
 | Obt-20 | HEX #CCDFF1 | RGB 204, 223, 241 |
 | Obt-10 | HEX #E6EFF8 | RGB 230, 239, 248 |
-| Dark Blue | HEX #002A66 |RGB 0, 42, 102 |
+| Dark Blue | HEX #002A66 | RGB 0, 42, 102 |
 | Dbt-50 | HEX #8095B3 | RGB 128, 149, 179 |
 | Dbt-40 | HEX #99AAC2 | RGB 153, 170, 194 |
 | Dbt-30 | HEX #B3BFD1 | RGB 179, 191, 209 |
