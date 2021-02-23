@@ -22,6 +22,12 @@ td{
   border: 1px solid #ebebeb;
   padding: 1%;
   text-align:left;
+  font-size: 14px;
+}
+
+tr{
+  color:rgb(25, 28, 30);
+  font-size: 24px;
 }
 
 header {
@@ -31,7 +37,7 @@ header {
   background: #2e7bcf url(../../Assests/BdPDesignHeader.png) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
-header .inner h3#subtitle {
+header .inner h2 {
   color: white;
   font-weight: normal;
   width: 0px;
@@ -40,10 +46,16 @@ header .inner h3#subtitle {
   text-align: center;
 }
 
-header .inner h1#title {
+header .inner h1 {
   text-align: center;
   font-size: 48px;
   width: auto;
+}
+
+div.inner {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
 }
 
 section#main-content{
