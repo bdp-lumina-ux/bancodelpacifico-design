@@ -32,6 +32,7 @@ tr {
 
 header {
   padding-top: 40px;
+  min-height: 190px;
   padding-bottom: 40px;
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
   background: #2e7bcf url(../../Assests/BdPDesignHeader.png) 0 0 repeat-x;
@@ -193,4 +194,7 @@ h6:before {
   margin-left: 5%;
   padding-top: 30px;
   border-top: solid 1px #fff;
+}
+aside#sidebar {
+  display: none;
 }
