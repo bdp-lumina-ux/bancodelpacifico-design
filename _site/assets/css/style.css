@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
@@ -388,32 +389,127 @@ footer a:hover { color: #444; }
   #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-html, header, body, h1, h2, h3, h4, h5, h6, p { font-family: Arial, Helvetica, sans-serif !important; }
+#footer { width: 100%; background: #eceff1; padding: 10 0 0 0; display: flex; height: -webkit-fill-available; }
 
-header { padding-top: 40px; padding-bottom: 40px; font-family: "Helvetica Neue", Helvetica, Arial, serif; background: #2e7bcf url(../../Assests/BdPDesignHeader.png) 0 0 repeat-x; border-bottom: solid 1px #275da1; }
+body { background: #fff; }
 
-header .inner h3#subtitle { color: white; font-weight: normal; }
+html, header, body, h1, h2, h3, h4, h5, h6 { font-family: Arial, Helvetica, sans-serif !important; }
 
-#main-content h1 { margin-top: 0; margin-bottom: 0; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 2.8em; font-weight: normal; color: #474747; text-indent: 6px; letter-spacing: -1px; }
+p { text-align: justify; }
+
+td { font-weight: 300; text-align: center; border: 1px solid #ebebeb; padding: 1%; text-align: left; font-size: 14px; }
+
+tr { color: #191c1e; font-size: 24px; }
+
+header { padding-top: 80px; min-height: 190px; padding-bottom: 40px; font-family: "Helvetica Neue", Helvetica, Arial, serif; background: #2e7bcf url(../../Assests/BdPDesignHeader.png) 0% 90% repeat-x; border-bottom: solid 1px #275da1; }
+
+header .inner h2 { color: white; font-weight: normal; width: auto; padding-top: 20px; padding-left: 80px; padding-right: 80px; font-size: 23px; text-align: center; }
+
+header .inner h1 { text-align: center; font-size: 48px; width: auto; }
+
+div.inner { position: relative; width: auto; margin: 0 auto; }
+
+section#main-content { float: left; width: auto; }
+
+header h1 { width: 540px; margin-top: 10; margin-bottom: 0.2em; font-size: 72px; font-weight: bold; line-height: 1; color: #fff; letter-spacing: -1px; }
+
+#main-content h1 { margin-top: 0; margin-bottom: 0; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 2.8em; font-weight: normal; color: #191c1e; text-indent: 20px; letter-spacing: -1px; }
 
 #main-content h1:before { padding-right: 0.3em; margin-left: -0.9em; color: #9ddcff; content: ""; }
 
-#main-content h2 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 22px; font-weight: bold; color: #474747; text-indent: 4px; }
+#main-content h2 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; color: #191c1e; text-indent: 26px; font-weight: normal; width: auto; padding-top: 20px; font-size: 23px; }
+
+#main-content h2#proporciona-estándares-claros-orientación-y-herramientas-que-ayudan-a-los-equipos-a-trabajar-juntos-de-manera-más-eficiente-y-construir-mejores-experiencias-de-usuario { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; color: #191c1e; text-indent: 26px; font-weight: normal; width: auto; padding-top: 20px; font-size: 23px; text-align: center; }
+
+h2#analisis, h2#primarios, h2#secundarios, h2#terciarios, h2#tintes-2, h2#alertas, h2#mejores-prácticas, h2#accesibilidadm h2#jerarquía-de-colores, h2#pautas-adicionales, h2#referencias { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; color: #191c1e; text-indent: 26px; font-weight: normal; width: auto; padding-top: 20px; font-size: 23px; text-align: left; }
 
 #main-content h2:before { padding-right: 0.3em; margin-left: -1.5em; content: ""; }
 
-#main-content h3 { margin-top: 24px; margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content h3 { margin-top: 24px; margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #191c1e; text-indent: 3px; }
 
-#main-content h3:before { padding-right: 0.3em; margin-left: -2em; content: ""; }
+#main-content h3:before { padding-right: 0em; margin-left: 0em; content: ""; }
 
-#main-content h4 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 15px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content h4 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 15px; font-weight: bold; color: #191c1e; text-indent: 3px; }
 
 h4:before { padding-right: 0.3em; margin-left: -2.8em; content: ""; color: #9ddcff; }
 
-#main-content h5 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 14px; color: #474747; text-indent: 3px; }
+#main-content h5 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 14px; color: #191c1e; text-indent: 3px; }
 
 h5:before { padding-right: 0.3em; margin-left: -3.2em; color: #9ddcff; content: ""; }
 
-#main-content h6 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 0.8em; color: #474747; text-indent: 3px; }
+#main-content h6 { margin-bottom: 8px; font-family: "Helvetica Neue", Helvetica, Arial, serif; font-size: 0.8em; color: #191c1e; text-indent: 3px; }
 
 h6:before { padding-right: 0.3em; margin-left: -3.7em; color: #9ddcff; content: ""; }
+
+#main-content img { display: block; margin-left: auto; margin-right: auto; width: 100%; }
+
+#content-wrapper { margin-right: 5%; margin-left: 5%; padding-top: 30px; border-top: solid 1px #fff; }
+
+#content-wrapper-documentation { margin-right: 25%; margin-left: 25%; padding-top: 30px; border-top: solid 1px #fff; }
+
+aside#sidebar { display: none; }
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) { .inner { width: 740px; }
+  header h1, header h2 { width: 340px; }
+  header h1 { font-size: 60px; }
+  header h2 { font-size: 30px; }
+  #main-content { width: 490px; }
+  #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) { .inner { width: 93%; }
+  header { padding: 20px 0; }
+  header .inner { position: relative; }
+  header h1, header h2 { width: 100%; }
+  header h1 { font-size: 48px; }
+  header h2 { font-size: 24px; }
+  header a.button { position: relative; display: inline-block; width: auto; height: auto; padding: 5px 10px; margin-top: 15px; font-size: 13px; line-height: 1; color: #2879d0; text-align: center; background-color: #9ddcff; background-image: none; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+  header a.button small { display: inline; font-size: 13px; }
+  #main-content, aside#sidebar { float: none; width: 100% !important; }
+  aside#sidebar { min-height: 0; padding: 20px 0; margin-top: 20px; background-image: none; border-top: solid 1px #ddd; }
+  aside#sidebar a.button { display: none; }
+  #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
+.site-nav { font-size: 15.75px; line-height: 44px; position: absolute; left: 50px; top: 0; background-color: #005EB8; }
+.site-nav .nav-trigger { display: none; }
+.site-nav .menu-icon { display: none; }
+.site-nav .page-link { line-height: 1.6; color: white; transition: 0.1s ease-in-out; }
+.site-nav .page-link:not(:last-child) { margin-right: 24px; }
+.site-nav .page-link:not(:last-child):hover { text-decoration: underline; }
+@media screen and (max-width: 800px) { .site-nav { position: absolute; top: 0; text-align: left; }
+  .site-nav label[for="nav-trigger"] { display: block; z-index: 2; cursor: pointer; }
+  .site-nav .menu-icon { display: block; float: right; text-align: center; }
+  .site-nav .menu-icon > svg { fill: rgba(255, 255, 255, 0.8); transition: 0.1s fill; }
+  .site-nav input ~ .trigger { clear: both; display: none; border-radius: 3px; box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.06); }
+  .site-nav input:checked ~ .trigger { display: block; background: #005EB8; }
+  .site-nav .page-link { display: block; padding: 5px 10px; color: rgba(255, 255, 255, 0.8); margin: 0 25px; } }
+
+thead, #ul-frontify { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: initial; }
+
+#td-frontify { width: 25%; }
+
+#th-frontify { font-size: var(--cds-heading-01-font-size, 0.875rem); font-weight: var(--cds-heading-01-font-weight, 600); line-height: var(--cds-heading-01-line-height, 1.125rem); letter-spacing: var(--cds-heading-01-letter-spacing, 0.16px); padding: 1rem; text-align: left; white-space: nowrap; background: #fff; }
+
+#page-table { background: #fff; margin-top: .5rem; width: 100%; line-height: 1.25; }
+
+#ul-frontify { list-style: none; margin-left: 1rem; }
+
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+
+#td-frontify, #th-frontify { border: 1px solid #DBE0E4; text-align: left; }
+
+#th-frontify, #td-frontify { vertical-align: top; padding: 15px; }
+
+#color-token-value > div { display: flex; }
+
+#color-token-value__block { display: block; width: 3rem; height: 3rem; border-radius: 0.5rem; }
+
+#color-token-value { display: flex; justify-content: flex-end; flex-direction: row-reverse; }
+
+td > code { font-size: .75rem; }
+
+li > code, p > code, td > code { font-size: .75rem; font-weight: 400; line-height: 1rem; letter-spacing: .32px; position: relative; display: inline; padding: 0 .5em; font-size: .875em; bottom: .0625em; border-radius: 4px; background-color: #e0e0e0; color: #161616; }
+
+.mod-block-pattern:hover .breakpoints { display: none !important; }

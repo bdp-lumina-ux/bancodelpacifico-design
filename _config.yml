@@ -1,4 +1,11 @@
 theme: jekyll-theme-architect
 title: Lumina Design System
+description: 'Proporciona estándares claros, orientación, y herramientas que ayudan a los equipos a trabajar juntos de manera más eficiente y construir mejores experiencias de usuario.
+'
+group: navigation
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - diseno/Fundamentos/Colores.md
+  
 github:
   is_project_page: false

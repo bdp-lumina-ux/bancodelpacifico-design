@@ -1,3 +1,7 @@
+---
+author: "Anali"
+layout: "documentation"
+---
 # Colores
 Nuestra estética única representa a un Banco del Pacífico contemporáneo y en constante evolución. La siguiente paleta de colores digital expande esa visión, elevando la marca a una identidad digital, que: atraerá a los consumidores a los productos, despertará emociones y tendrá un gran impacto en el reconocimiento de la misma.
 
