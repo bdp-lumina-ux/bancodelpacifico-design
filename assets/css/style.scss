@@ -228,7 +228,7 @@ h6:before {
 #content-wrapper-documentation {
   margin-right: 25%;
   margin-left: 25%;
-  padding-top: 30px;
+  padding-top: 50px;
   border-top: solid 1px #fff;
 }
 
@@ -360,9 +360,10 @@ $header-background-color: #005EB8;
   @include relative-font-size(1.125);
   line-height: 44px;
   position: absolute;
-  left: 50px;
+  padding-left: 50px;
   top: 0;
   background-color: #005EB8;
+  width: 100%;
 
   .nav-trigger {
     display: none;

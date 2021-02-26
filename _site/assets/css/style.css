@@ -445,7 +445,7 @@ h6:before { padding-right: 0.3em; margin-left: -3.7em; color: #9ddcff; content: 
 
 #content-wrapper { margin-right: 5%; margin-left: 5%; padding-top: 30px; border-top: solid 1px #fff; }
 
-#content-wrapper-documentation { margin-right: 25%; margin-left: 25%; padding-top: 30px; border-top: solid 1px #fff; }
+#content-wrapper-documentation { margin-right: 25%; margin-left: 25%; padding-top: 50px; border-top: solid 1px #fff; }
 
 aside#sidebar { display: none; }
 
@@ -472,7 +472,7 @@ aside#sidebar { display: none; }
   aside#sidebar { min-height: 0; padding: 20px 0; margin-top: 20px; background-image: none; border-top: solid 1px #ddd; }
   aside#sidebar a.button { display: none; }
   #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
-.site-nav { font-size: 15.75px; line-height: 44px; position: absolute; left: 50px; top: 0; background-color: #005EB8; }
+.site-nav { font-size: 15.75px; line-height: 44px; position: absolute; padding-left: 50px; top: 0; background-color: #005EB8; width: 100%; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { line-height: 1.6; color: white; transition: 0.1s ease-in-out; }
